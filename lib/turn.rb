@@ -30,7 +30,8 @@ def valid_move?(board,index)
   valid
 
 end
-# code your #position_taken? method here!
+# code your #position_taken? method here!]
+
 def position_taken?(board,index)
   taken = nil
   if (board[index] == " " || board[index] ==  "" || board[index] == nil)
